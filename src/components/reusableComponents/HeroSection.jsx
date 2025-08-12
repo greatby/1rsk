@@ -9,10 +9,10 @@ export default function HeroSection({
 }) {
   return (
     <section
-      className={`relative bg-gradient-to-r text-white py-20`}
+      className={`relative bg-gradient-to-r text-white py-20 h-auto md:h-[700px] lg:h-[700px]`}
       style={{ backgroundImage: "url(/images/heroBg.png)", backgroundRepeat:'no-repeat',backgroundPosition:'center'}}
     >
-      <div className="max-w-7xl mx-auto px-6 text-center">
+      <div className="max-w-7xl mx-auto px-6 text-center flex items-center justify-center flex-col h-auto md:h-screen lg:h-screen">
         <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
           {title}
         </h1>

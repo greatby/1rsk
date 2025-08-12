@@ -1,5 +1,7 @@
-import { FaLinkedin, FaTwitter, FaInstagram,FaYoutube } from "react-icons/fa";
+import { FaLinkedin, FaInstagram, FaYoutube } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import { IoMail } from "react-icons/io5";
+import { IoLogoWhatsapp } from "react-icons/io";
 
 export default function Footer() {
   return (
@@ -14,7 +16,6 @@ export default function Footer() {
           </p>
         </div>
 
-       
         {/* <div>
           <h3 className="text-lg font-semibold text-white mb-4">Solutions</h3>
           <ul className="space-y-2">
@@ -71,9 +72,8 @@ export default function Footer() {
         {/* Contact */}
         <div>
           <h3 className="text-lg font-semibold text-white mb-4">Contact Us</h3>
-        
+
           <p className="text-sm">India: +91-9243188888</p>
-         
 
           {/* Social */}
           <div className="flex space-x-4 mt-4">
@@ -84,7 +84,7 @@ export default function Footer() {
               <FaLinkedin size={18} />
             </a>
             <a href="https://x.com/1RSKIndia" className="hover:text-white">
-              <FaTwitter size={18} />
+              <FaXTwitter size={18} />
             </a>
             <a
               href="https://www.instagram.com/1rskindia/"
@@ -98,12 +98,21 @@ export default function Footer() {
             >
               <FaYoutube size={18} />
             </a>
-             <a
-                href="mailto:Support@1rsk.com"
-                 className="hover:text-white"
-              >
-                <IoMail size={18}/>
-              </a>
+            <a href="mailto:Support@1rsk.com" className="hover:text-white">
+              <IoMail size={18} />
+            </a>
+            <a
+              onClick={() => {
+                const phone = "919243188888";
+                const text = encodeURIComponent(
+                  "Hi, I need help with EPFdesk."
+                );
+                window.open(`https://wa.me/${phone}?text=${text}`, "_blank");
+              }}
+              className="hover:text-white cursor-pointer"
+            >
+              <IoLogoWhatsapp size={18} />
+            </a>
           </div>
         </div>
       </div>

@@ -17,7 +17,7 @@ export default function Navbar() {
         <div className="flex justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center text-2xl font-bold text-indigo-600">
-            1RSK
+            <Link to="/in">1RSK</Link>
           </div>
 
           {/* Desktop Menu */}
