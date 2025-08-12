@@ -973,39 +973,38 @@ export const globalReachDataUae = [
     icon: <FaMapMarkedAlt />,
     heading: "UAE: Powering Your Gateway to Global Markets",
     paragraphs: [
-`Conquer the inherent complexities of the UAE's dynamic business landscape. Whether
+      `Conquer the inherent complexities of the UAE's dynamic business landscape. Whether
 navigating the specific requirements of Mainland DED operations, leveraging the new
 Resolution No. 11 of 2025 for Free Zone to Mainland expansion, or optimizing within
 any of the diverse Free Zones (DMCC, DIFC, IFZA, DAFZA, etc.), 1RSK provides the
 precise, legally sound compliance framework to establish, operate, and thrive in this
 global hub with complete confidence.`,
-`This includes mastery of Corporate Tax, the
+      `This includes mastery of Corporate Tax, the
 Personal Data Protection Law (PDPL), VARA-regulated crypto activities, AI governance
 frameworks, ESR, UBO, and comprehensive AML/CFT. We cater to the unique needs of
-startups, SMEs, and large enterprises alike.`
+startups, SMEs, and large enterprises alike.`,
     ],
   },
   {
     icon: <FaGlobeAsia />,
     heading: "India: Navigating the Dynamics of Unprecedented Growth",
     paragraphs: [
-`Leverage our unparalleled, deep-rooted understanding of India's multi-layered, evolving
+      `Leverage our unparalleled, deep-rooted understanding of India's multi-layered, evolving
 regulatory environment. From complex central government mandates and specific statelevel
 nuances (including FSSAI regulations, the Digital Personal Data Protection Act
 (DDPA), Factories Act compliance, environmental norms, RBI directives for fintech,
 SEBI rules for capital markets, and DGCA Drone rules) to intricate local body
 compliance, 1RSK ensures seamless, risk-averse operations across every region, for
 every business type – from a single-office startup to a multi-factory enterprise.`,
-`We are
-your definitive partner for regulatory compliance in India.`
+      `We are
+your definitive partner for regulatory compliance in India.`,
     ],
   },
 ];
 
 export const testimonialsUae = [
   {
-    quote:
-`Before 1RSK, regulatory compliance felt like a constant burden. As a fastgrowing
+    quote: `Before 1RSK, regulatory compliance felt like a constant burden. As a fastgrowing
 tech startup in Dubai's free zone, their seamless handling of our
 Mainland expansion under the new 2025 rules, combined with PDPL
 compliance and Corporate Tax registration, allowed us to capture market
@@ -1014,8 +1013,7 @@ share exponentially. They truly are the OS for our business."`,
     role: "Disruptive Tech Startup, Dubai",
   },
   {
-    quote:
-`Managing our multi-free zone and mainland operations in the UAE was a
+    quote: `Managing our multi-free zone and mainland operations in the UAE was a
 compliance labyrinth. 1RSK's integrated OS, with their expertise in AML/CFT,
 UBO filings, and strategic audit support, has provided unparalleled clarity and
 control. Their proactive approach to Corporate Tax was invaluable."`,
@@ -1023,12 +1021,55 @@ control. Their proactive approach to Corporate Tax was invaluable."`,
     role: "Major Financial Services Enterprise, Abu Dhabi",
   },
   {
-    quote:
-`Launching our blockchain venture required deep knowledge of VARA
+    quote: `Launching our blockchain venture required deep knowledge of VARA
 regulations and crypto licensingin DMCC. 1RSK's team navigated every
 complexity, ensuring full compliance from day one. Their expertise is unmatched,
 truly the best partner for digital asset businesses in the UAE."`,
     author: "CEO",
     role: "Blockchain Solutions Provider, Dubai",
+  },
+];
+
+export const faqsUae = [
+  {
+    question:
+      "How does 1RSK ensure compliance with the UAE Personal Data Protection Law (PDPL) for businesses of all sizes?",
+    answer:
+      "1RSK helps businesses implement robust data protection frameworks aligned with the UAE PDPL, including data mapping, consent management, privacy policies, and staff training. We also conduct compliance audits and assist with regulator submissions to ensure both small and large enterprises meet legal requirements while safeguarding customer trust.",
+  },
+  {
+    question:
+      "Can 1RSK assist with Corporate Tax registration and ongoing compliance for both Mainland and Free Zone entities in the UAE?",
+    answer:
+      "Yes. 1RSK manages the complete Corporate Tax lifecycle — from registration with the Federal Tax Authority (FTA) to quarterly filings, financial record-keeping, and advisory on tax optimization. We cater to both Mainland and Free Zone companies, ensuring timely compliance under UAE’s Corporate Tax law.",
+  },
+  {
+    question:
+      "What support does 1RSK offer for crypto licensing and VARA regulation adherence in UAE Free Zones like DMCC or IFZA?",
+    answer:
+      "We provide end-to-end guidance for crypto business licensing in regulated Free Zones, including preparing business plans, compliance documentation, and liaising with Free Zone authorities. 1RSK also assists in meeting Virtual Assets Regulatory Authority (VARA) requirements, AML/CFT obligations, and ongoing reporting standards for digital asset activities.",
+  },
+  {
+    question:
+      "How does the new Resolution No. 11 of 2025 impact Free Zone businesses, and how does 1RSK facilitate Mainland expansion?",
+    answer:
+      "Resolution No. 11 of 2025 clarifies the scope of qualifying income for Free Zone tax exemptions, affecting eligibility and compliance reporting. 1RSK advises on restructuring strategies, cross-border licensing, and setting up Mainland branches or subsidiaries to enable seamless expansion while maintaining compliance with both Free Zone and Mainland regulations.",
+  },
+  {
+    question:
+      " What is the process for company liquidation or VAT deregistration in the UAE, and how does 1RSK manage it?",
+    answer:
+      "Company liquidation and VAT deregistration involve formal applications, clearance from government departments, settling liabilities, and final audit submissions. 1RSK coordinates the entire process — from preparing closure resolutions to obtaining authority clearances — ensuring a smooth and compliant exit with minimal disruption.",
+  },
+  {
+    question:
+      "How does 1RSK support enterprises with ESR (Economic Substance Regulations) and UBO (Ultimate Beneficial Ownership) compliance?",
+    answer:
+      "We handle ESR notifications, annual filings, and economic substance reporting to the relevant authorities. For UBO compliance, 1RSK assists in identifying, documenting, and registering beneficial owners, keeping your entity aligned with UAE transparency laws and avoiding penalties.",
+  },
+  {
+    question: "What is the typical onboarding timeline for a new business?",
+    answer:
+      "Depending on the business activity and jurisdiction, onboarding typically takes 5–15 working days. This includes documentation collection, authority approvals, license issuance, and compliance setup. For regulated sectors like finance or crypto, timelines may extend due to additional approvals, but 1RSK actively expedites every stage.",
   },
 ];

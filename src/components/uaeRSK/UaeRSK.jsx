@@ -7,7 +7,7 @@ import {
   ignitionServicesUae,
   operationalStepsUae,
   testimonialsUae,
-  faqs,
+  faqsUae,
   why1RSKUae,
   incidentServicesUae,
   strategicServicesUae,
@@ -96,12 +96,12 @@ Across Continents"
         title="Insights from the 1RSK Command Center"
         subtitle="Expert perspectives and actionable intelligence on regulatory trends."
         articles={insightsArticles}
-      />
+      /> */}
       <FAQAccordion
         title="Frequently Asked Questions"
         subtitle="Your strategic inquiries, answered by our compliance experts."
-        faqs={faqs}
-      /> */}
+        faqs={faqsUae}
+      />
       <Footer />
     </>
   );
