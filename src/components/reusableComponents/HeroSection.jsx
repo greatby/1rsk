@@ -5,17 +5,18 @@ export default function HeroSection({
   subtitle,
   primaryCta,
   secondaryCta,
-  background = "from-indigo-600 via-purple-600 to-pink-600"
+  background = "from-indigo-600 via-purple-600 to-pink-600",
 }) {
   return (
-    <section className={`relative bg-gradient-to-r ${background} text-white py-20`}>
+    <section
+      className={`relative bg-gradient-to-r text-white py-20`}
+      style={{ backgroundImage: "url(/images/heroBg.png)", backgroundRepeat:'no-repeat',backgroundPosition:'center'}}
+    >
       <div className="max-w-7xl mx-auto px-6 text-center">
         <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
           {title}
         </h1>
-        <p className="text-lg md:text-xl max-w-3xl mx-auto mb-8">
-          {subtitle}
-        </p>
+        <p className="text-lg md:text-xl max-w-3xl mx-auto mb-8">{subtitle}</p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           {primaryCta && (
             <a

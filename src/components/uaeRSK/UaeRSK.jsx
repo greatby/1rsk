@@ -25,10 +25,12 @@ import IconBulletSection from "../reusableComponents/IconBulletSection";
 import GlobalReachSection from "../reusableComponents/GlobalReachSection";
 import InsightsGrid from "../reusableComponents/InsightsGrid";
 import Footer from "../reusableComponents/Footer";
+import Navbar from "../reusableComponents/Navbar";
 
 const UaeRSK = () => {
   return (
     <>
+    <Navbar />
       <HeroSection
         title="1RSK UAE: The Operating System for
 Your Business in the Emirates. Scale

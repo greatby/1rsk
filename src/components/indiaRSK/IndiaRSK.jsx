@@ -25,10 +25,12 @@ import IconBulletSection from "../reusableComponents/IconBulletSection";
 import GlobalReachSection from "../reusableComponents/GlobalReachSection";
 import InsightsGrid from "../reusableComponents/InsightsGrid";
 import Footer from "../reusableComponents/Footer";
+import Navbar from "../reusableComponents/Navbar";
 
 const IndiaRSK = () => {
   return (
     <>
+    <Navbar />
       <HeroSection
         title="1RSK: The System for Every Business. Every Ambition."
         subtitle="From Startup to Enterprise — regulatory compliance made seamless, proactive, and scalable."

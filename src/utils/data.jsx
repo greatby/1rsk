@@ -461,42 +461,42 @@ export const insightsArticles = [
     excerpt:
       "The Digital Personal Data Protection Act introduces strict consent, localization, and grievance protocols. Learn how to ensure full readiness before enforcement deadlines.",
     href: "#",
-    image: "/images/dpdpAct.png",
+    image: "/images/doodle1.png",
   },
   {
     title: "UAE Corporate Tax Compliance: A 2025 Survival Guide",
     excerpt:
       "With corporate tax regimes maturing in the UAE, multi-entity businesses must align governance, licensing, and filings to avoid costly missteps.",
     href: "#",
-    image: "/images/taxCompaliance.png",
+    image: "/images/doodle3.png",
   },
   {
     title: "Drone Regulation Updates: Unlocking New Business Opportunities",
     excerpt:
       "DGCA's evolving drone rules are enabling fresh use-cases in logistics, surveying, and agriculture. Discover licensing essentials for safe and compliant deployment.",
     href: "#",
-    image: "/images/drone.png",
+    image: "/images/doodle1.png",
   },
   {
     title: "ESG Reporting Mandates: India's New Compliance Frontier",
     excerpt:
       "As SEBI and MCA push stricter ESG reporting standards, businesses must embed sustainability into operational compliance.",
     href: "#",
-    image: "/images/esgReporting.png",
+    image: "/images/doodle1.png",
   },
   {
     title: "FSSAI Compliance for Scaling Food Brands",
     excerpt:
       "From basic registration to advanced audits, understand the FSSAI lifecycle to ensure uninterrupted growth in the Indian food sector.",
     href: "#",
-    image: "/images/fssaiCompaliance.png",
+    image: "/images/doodle3.png",
   },
   {
     title: "RERA Compliance for Real Estate Developers",
     excerpt:
       "Master the registration, reporting, and audit processes under RERA to maintain credibility and avoid penalties in India's real estate sector.",
     href: "#",
-    image: "/images/reraCompaliance.png",
+    image: "/images/doodle1.png",
   },
 ];
 
