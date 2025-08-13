@@ -43,6 +43,7 @@ const IndiaRSK = () => {
         heading="Ignition Protocols: Foundational Setup & Strategic Market Entry"
         description="From your first company registration to critical licenses for market access, we lay the foundation for compliant, scalable growth."
         services={ignitionServices}
+        videoSrc={'video/api-model-cards.mp4'}
       />
 
       <ServiceCategory

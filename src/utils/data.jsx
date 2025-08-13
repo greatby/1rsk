@@ -221,31 +221,37 @@ export const ignitionServices = [
     title: "Rapid Entity Formation",
     description:
       "Whether it's your first Proprietorship, Partnership, OPC, Private Limited Company, or LLP registration, we ensure seamless, swift setup. For enterprises, this extends to Branch Offices, Subsidiaries, and Joint Ventures.",
+    videoSrc: "/video/api-model-cards.mp4",
   },
   {
     title: "Essential Tax & Government Registrations",
     description:
       "End-to-end GST registration, PAN, TAN, Udyam (MSME) registration (unlocking crucial benefits), VAT, Corporate Tax setup, and Startup India recognition for early-stage advantages.",
+    videoSrc: "/video/api-model-cards.mp4",
   },
   {
     title: "Market Access & Operational Licenses",
     description:
       "Seamless IEC Registration, FSSAI registration and licensing (Basic, State, Central) for all food businesses, along with other critical industry-specific permits (e.g., RERA for real estate, telecom licenses, specific local trade licenses).",
+    videoSrc: "/video/api-model-cards.mp4",
   },
   {
     title: "Emerging Tech Permitting",
     description:
       "Expert navigation and acquisition of licenses for novel technologies, including Drone Operation Permits and other specialized approvals required for innovation.",
+    videoSrc: "/video/api-model-cards.mp4",
   },
   {
     title: "Workforce Foundation",
     description:
       "Comprehensive Shop & Establishment, Professional Tax, and all foundational Labour Law registrations.",
+    videoSrc: "/video/api-model-cards.mp4",
   },
   {
     title: "All Essential Foundational Licenses",
     description:
       "Strategically deployed for immediate, compliant operational readiness and aggressive market capture, regardless of your business size.",
+    videoSrc: "/video/api-model-cards.mp4",
   },
 ];
 
@@ -461,42 +467,42 @@ export const insightsArticles = [
     excerpt:
       "The Digital Personal Data Protection Act introduces strict consent, localization, and grievance protocols. Learn how to ensure full readiness before enforcement deadlines.",
     href: "#",
-    image: "/images/dpdpAct.png",
+    image: "/images/doodle1.png",
   },
   {
     title: "UAE Corporate Tax Compliance: A 2025 Survival Guide",
     excerpt:
       "With corporate tax regimes maturing in the UAE, multi-entity businesses must align governance, licensing, and filings to avoid costly missteps.",
     href: "#",
-    image: "/images/taxCompaliance.png",
+    image: "/images/doodle3.png",
   },
   {
     title: "Drone Regulation Updates: Unlocking New Business Opportunities",
     excerpt:
       "DGCA's evolving drone rules are enabling fresh use-cases in logistics, surveying, and agriculture. Discover licensing essentials for safe and compliant deployment.",
     href: "#",
-    image: "/images/drone.png",
+    image: "/images/doodle2.png",
   },
   {
     title: "ESG Reporting Mandates: India's New Compliance Frontier",
     excerpt:
       "As SEBI and MCA push stricter ESG reporting standards, businesses must embed sustainability into operational compliance.",
     href: "#",
-    image: "/images/esgReporting.png",
+    image: "/images/doodle4.png",
   },
   {
     title: "FSSAI Compliance for Scaling Food Brands",
     excerpt:
       "From basic registration to advanced audits, understand the FSSAI lifecycle to ensure uninterrupted growth in the Indian food sector.",
     href: "#",
-    image: "/images/fssaiCompaliance.png",
+    image: "/images/doodle6.png",
   },
   {
     title: "RERA Compliance for Real Estate Developers",
     excerpt:
       "Master the registration, reporting, and audit processes under RERA to maintain credibility and avoid penalties in India's real estate sector.",
     href: "#",
-    image: "/images/reraCompaliance.png",
+    image: "/images/doodle5.png",
   },
 ];
 
